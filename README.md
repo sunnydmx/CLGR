@@ -1,10 +1,7 @@
 # GMTSCLR: A Contrastive Learning Framework for Extracting Graph Representation from Multivariate Time Series
 ## Data Preparation
-[METR_LA](https://github.com/chnsh/DCRNN_PyTorch) [PeMS](https://github.com/divanoresia/Traffic)
-```python
-unzip mts/metr-la.h5.zip -d mts/
-mkdir save_pth/metr-la
-```
+[PeMS](https://github.com/divanoresia/Traffic)
+
 ## Train VAE Model
 ```python
 python pretrain_vae.py --dataset_name=metr-la
